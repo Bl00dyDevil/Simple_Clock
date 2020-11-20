@@ -2,7 +2,7 @@
 title clock
 color 0a
 chcp 65001 >nul
-mode con: cols=43 lines=4
+mode con: cols=41 lines=4
 
 :loop
 cls
