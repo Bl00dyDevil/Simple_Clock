@@ -11,6 +11,6 @@ echo ║      %date% %time%      ║
 echo ╚═══════════════════════════════════════╝
 
 for /L %%a In (0 1 %number_of_pings%) do (
-ping -n 1 -w 1.1.1.1 > nul
+ping -n 1 -w 127.0.0.1 > nul
 )
 goto loop
